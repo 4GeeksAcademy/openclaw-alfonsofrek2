@@ -21,3 +21,10 @@ enlace del documento relacionado cuando exista.
 Inspeccionar la accion antes de ejecutarla. No adivinar nombres de acciones ni
 identificadores dinamicos. Preferir acciones de lectura para resolver IDs antes
 de ejecutar escrituras.
+
+## API estudiantil 4Geeks
+
+La base por defecto es `https://breathecode.herokuapp.com`. Las skills usan la
+variable segura `BREATHECODE_STUDENT_TOKEN` con el prefijo `Authorization: Token`.
+El secreto debe ser inyectado por el supervisor de OpenClaw en runtime; nunca se
+guarda en el repositorio ni se pega en una skill.
